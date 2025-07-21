@@ -1,4 +1,3 @@
-
 namespace SOLID;
 
 public class EmailNotification : INotificationSender

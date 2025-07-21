@@ -1,4 +1,3 @@
-
 namespace SOLID;
 
 public interface INotificationSender

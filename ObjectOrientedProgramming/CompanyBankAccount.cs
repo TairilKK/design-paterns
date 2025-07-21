@@ -6,4 +6,10 @@ public class CompanyBankAccount : BankAccount
   {
     Console.WriteLine("Company take loan");
   }
+  public override void MakeWithdrawal(float amount)
+  {
+    Console.WriteLine("Company bank account withdrawl");
+    base.MakeWithdrawal(amount);
+  }
+
 }

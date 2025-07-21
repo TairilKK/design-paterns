@@ -2,7 +2,7 @@ namespace ObjectOrientedProgramming;
 
 public class BankAccount
 {
-  private float balance;
+  protected float balance;
   public string? Name { get; set; }
 
   public void MakeDeposit(float amount)
@@ -12,7 +12,7 @@ public class BankAccount
     balance += amount;
   }
 
-  public void MakeWithdrawal(float amount)
+  public virtual void MakeWithdrawal(float amount)
   {
     if (amount < 0)
       throw new Exception("Amount must be positive");

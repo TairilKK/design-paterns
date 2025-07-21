@@ -1,8 +1,13 @@
 ﻿using ObjectOrientedProgramming;
 
-CompanyBankAccount bankAccount = new CompanyBankAccount();
-bankAccount.MakeDeposit(1600);
-bankAccount.MakeWithdrawal(1200);
+var bankAccount = GetBankAccount();
+bankAccount.MakeWithdrawal(1700);
 Console.WriteLine(bankAccount.GetBalance());
 
-bankAccount.TakeLoan(121);
+static BankAccount GetBankAccount()
+{
+  var bankAccount = new CompanyBankAccount();
+  bankAccount.MakeDeposit(1600);
+
+  return bankAccount;
+}

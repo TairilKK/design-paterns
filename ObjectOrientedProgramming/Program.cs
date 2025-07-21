@@ -1,5 +1,9 @@
 ﻿using ObjectOrientedProgramming;
 
-Person person = new Person("Kuba");
+IPrinter printer = GetPrinter();
+printer.Print("some content");
 
-person.SayHi();
+static IPrinter GetPrinter()
+{
+  return new Cannon();
+}

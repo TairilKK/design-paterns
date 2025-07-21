@@ -1,4 +1,3 @@
-
 namespace SOLID;
 
 public class Invoice
@@ -23,15 +22,5 @@ public class Invoice
       total += lineItem.Price * lineItem.Count * (1 + lineItem.TaxRate);
     }
     return total;
-  }
-  public void Display()
-  {
-    Console.WriteLine($"Vendor: {Vendor}");
-    Console.WriteLine($"Vendee: {Vendee}");
-    Console.WriteLine($"Total: {Total}");
-  }
-  public void SaveToPdf()
-  {
-    Console.WriteLine("Saving to pdf");
   }
 }

@@ -1,7 +1,7 @@
 
 namespace SOLID;
 
-public class EmailNotification
+public class EmailNotification : INotificationSender
 {
   public void SendNotification(User user)
   {

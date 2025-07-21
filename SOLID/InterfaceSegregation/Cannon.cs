@@ -1,6 +1,6 @@
 namespace SOLID;
 
-public class Cannon : IPrinter
+public class Cannon : IPrinter, IFax
 {
   public void Fax(string content)
   {
@@ -15,10 +15,5 @@ public class Cannon : IPrinter
   public void PrintGray(string content)
   {
     Console.WriteLine("Cannon print gray");
-  }
-
-  public void Scan(string content)
-  {
-    throw new NotImplementedException();
   }
 }

@@ -3,18 +3,15 @@ namespace SOLID;
 public class InvoicePersistance
 {
   private Invoice _invoice;
+  private IInvoiceSaver _invoiceSaver;
 
-  public InvoicePersistance(Invoice invoice)
+  public InvoicePersistance(Invoice invoice, IInvoiceSaver invoiceSaver)
   {
     _invoice = invoice;
+    _invoiceSaver = invoiceSaver;
   }
-  public void SaveToPdf()
+  public void Save()
   {
-    Console.WriteLine("Saving to pdf");
-  }
-
-  public void SaveToWord()
-  {
-    Console.WriteLine("Saving to word");
+    _invoiceSaver.Save(_invoice);
   }
 }

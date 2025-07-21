@@ -24,4 +24,14 @@ public class Invoice
     }
     return total;
   }
+  public void Display()
+  {
+    Console.WriteLine($"Vendor: {Vendor}");
+    Console.WriteLine($"Vendee: {Vendee}");
+    Console.WriteLine($"Total: {Total}");
+  }
+  public void SaveToPdf()
+  {
+    Console.WriteLine("Saving to pdf");
+  }
 }

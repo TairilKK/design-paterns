@@ -1,13 +1,8 @@
 ﻿using ObjectOrientedProgramming;
 
-var bankAccount = GetBankAccount();
-bankAccount.MakeWithdrawal(1700);
-Console.WriteLine(bankAccount.GetBalance());
+EmailSender emailSender = new EmailSender();
 
-static BankAccount GetBankAccount()
-{
-  var bankAccount = new CompanyBankAccount();
-  bankAccount.MakeDeposit(1600);
-
-  return bankAccount;
-}
+emailSender.ConnectToSmtpServer();
+emailSender.InsertCredentials();
+emailSender.SendEmail("to@mail.com", "title", "body");
+emailSender.Disconnect();

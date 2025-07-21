@@ -1,9 +1,6 @@
 ﻿using ObjectOrientedProgramming;
 
-IPrinter printer = GetPrinter();
-printer.Print("some content");
-
-static IPrinter GetPrinter()
-{
-  return new Cannon();
-}
+BankAccount bankAccount = new BankAccount();
+bankAccount.MakeDeposit(1600);
+bankAccount.MakeWithdrawal(1200);
+Console.WriteLine(bankAccount.GetBalance());

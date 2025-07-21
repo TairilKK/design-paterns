@@ -1,5 +1,3 @@
-using System;
-
 namespace SOLID;
 
 public class InvoiceLogger

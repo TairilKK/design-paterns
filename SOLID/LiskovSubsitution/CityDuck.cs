@@ -10,4 +10,8 @@ public class CityDuck : Duck
   {
     Console.WriteLine("City duck swim");
   }
+  public override void Fly()
+  {
+    Console.WriteLine("City duck flies");
+  }
 }

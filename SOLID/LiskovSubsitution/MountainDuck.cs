@@ -11,4 +11,8 @@ public class MountainDuck : Duck
   {
     Console.WriteLine("Mountain duck swim");
   }
+  public override void Fly()
+  {
+    Console.WriteLine("Mountain duck flies");
+  }
 }

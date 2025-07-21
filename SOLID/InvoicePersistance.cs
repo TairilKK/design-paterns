@@ -1,5 +1,3 @@
-using System;
-
 namespace SOLID;
 
 public class InvoicePersistance
@@ -13,5 +11,10 @@ public class InvoicePersistance
   public void SaveToPdf()
   {
     Console.WriteLine("Saving to pdf");
+  }
+
+  public void SaveToWord()
+  {
+    Console.WriteLine("Saving to word");
   }
 }

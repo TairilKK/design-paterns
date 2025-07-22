@@ -1,4 +1,3 @@
-// See https://aka.ms/new-console-template for more information
 public class Subscriber : ISubscriber
 {
   public string Name { get; set; }

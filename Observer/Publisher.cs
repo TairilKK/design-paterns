@@ -1,4 +1,3 @@
-// See https://aka.ms/new-console-template for more information
 public class Publisher
 {
   private List<ISubscriber> _subscribers { get; set; } = new List<ISubscriber>();

@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Mediator\Mediat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{5B6E1A85-4184-4A7D-B42F-4EEC8149ACA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{3C9270C2-73DC-49EF-A7D9-6062AD76A922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,18 @@ Global
 		{5B6E1A85-4184-4A7D-B42F-4EEC8149ACA6}.Release|x64.Build.0 = Release|Any CPU
 		{5B6E1A85-4184-4A7D-B42F-4EEC8149ACA6}.Release|x86.ActiveCfg = Release|Any CPU
 		{5B6E1A85-4184-4A7D-B42F-4EEC8149ACA6}.Release|x86.Build.0 = Release|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Debug|x64.Build.0 = Debug|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Debug|x86.Build.0 = Debug|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Release|x64.ActiveCfg = Release|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Release|x64.Build.0 = Release|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C9270C2-73DC-49EF-A7D9-6062AD76A922}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{624E4AFB-C8C3-4FB2-8610-3A8441411703}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{27C4EDF6-3228-466B-9C74-E032ECD4DB16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -125,6 +127,18 @@ Global
 		{624E4AFB-C8C3-4FB2-8610-3A8441411703}.Release|x64.Build.0 = Release|Any CPU
 		{624E4AFB-C8C3-4FB2-8610-3A8441411703}.Release|x86.ActiveCfg = Release|Any CPU
 		{624E4AFB-C8C3-4FB2-8610-3A8441411703}.Release|x86.Build.0 = Release|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Debug|x64.Build.0 = Debug|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Debug|x86.Build.0 = Debug|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Release|x64.ActiveCfg = Release|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Release|x64.Build.0 = Release|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Release|x86.ActiveCfg = Release|Any CPU
+		{27C4EDF6-3228-466B-9C74-E032ECD4DB16}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
